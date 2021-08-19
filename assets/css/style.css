@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.headerbackground {
+    width: 100%;
+    height: 150px;
+    background: url('./pic5.jpg');
+}
+header p {
+	padding-top: 10px;
+    font-size: 80px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	color: rgb(25, 0, 255); 
+	text-emphasis-color: blue;
+    text-align: center;
+}
+header nav ul li {
+    
+	display: inline-block;
+	margin-left: 25px;
+}
+body {
+	background-color: rgb(54, 54, 54);
+}
+a {
+	color: deepskyblue;
+}
+a:hover {
+	text-decoration: underline deepskyblue;
+	color: #7ffa03;
+}
+p {
+	font-size: 25px;
+}
+
+header nav {
+	padding-top: 20px;
+    padding-bottom: 20px;
+	margin-right: 20px;
+	float: center;
+    text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 20px;
+}
+
+header nav ul {
+	list-style-type: none;
+}
+
+.hero {
+    padding-top: 40px;
+    float: right;
+    display: flex;
+	flex-direction: column;
+	max-width: 450px;
+	margin-top: 20px;
+}
+section.content {
+    padding: 40px;
+	width: 50%;
+	display: inline-block;
+	margin-left: 20px;
+    margin-top: 5px;
+}
+section.content article.content {
+	margin-bottom: 20px;
+	padding: 15px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	background-color: #477491;
+	color: #ffffff;
+}
+
+section.content article.content img {
+	max-height: 300px;
+}
+
+section.content article.content img.float-left {
+	float: left;
+	margin-right: 25px;
+    height: 100px;
+}
+
+section.content article.content img.float-right {
+	float: right;
+	margin-left: 25px;
+    height: 100px;
+}
+
+section.content article.content h2 {
+	margin-bottom: 40px;
+	font-size: 46px;
+}
+ul#horizontal-list li {
+    display:inline;
+    font-size: 25px;
+}
+footer {
+	padding: 30px;
+	clear: both;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	text-align: center;
+}
+
+footer h2 {
+	font-size: 20px;
+}
+@media screen and (max-width: 992px){
+    section {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px){
+    section,
+	.hero {
+        width: 100%;
+    }
+	main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
